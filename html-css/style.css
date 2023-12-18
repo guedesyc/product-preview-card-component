@@ -6,62 +6,82 @@ body{
     background-color:hsl(30, 38%, 92%); ;
 }
 
-main{
+section > img{
+    height: 600;
+    height: 600px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+nav{
     display: flex;
     flex-direction: row;
-    background-color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 20px;
 }
 
-main > #coluna{
-    margin-left: 25px;
+main{
+    background-color: white;
+    width: 35vw;
+    border-radius: 0px 20px 20px 0px;
 }
 
-div#coluna > h1{
-    font-family: 'Fraunces', serif;
-    margin-right: 50px;
+main > h1{
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
+    margin: 40px;
 }
 
-div#coluna > h2{
+main > h2{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    color: rgb(161, 158, 158);
     font-size: 0.9em;
-    margin-top: 50px;
-    font-family: 'Montserrat', Arial, sans-serif;
-    color: rgb(161, 160, 160);
+    margin: 40px;
 }
 
-div#coluna > p{
-    font-family: 'Montserrat', Arial, sans-serif;
-    margin-right: 50px;
-}
-
-div#coluna > p.money{
-    font-family: 'Fraunces', Arial, sans-serif;
-    color: rgb(6, 78, 6);
-    font-size: 2em;
-}
-main > img {
-    width: 500px;
-    height: 500px;
-    border-radius: 10px 0px 0px 10px;
-}
-
-div#coluna > p.cart{
+main > h4{
+    background-color: rgba(0, 128, 0, 0.836);
     color: white;
-    background-color: rgba(1, 77, 1, 0.76);
     text-align: center;
+    width: 20vw;
+    margin: auto;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+
 }
 
-div#coluna > p.cart:hover{
-    background-color: rgba(118, 207, 118, 0.644);
+main > h4:hover{
+    background-color: rgba(173, 150, 16, 0.589);
     color: black;
 }
 
-del{
-    font-family: 'Montserrat', Arial, sans-serif;
+main > p {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: rgb(161, 158, 158);
+    font-size: 0.9em;
+    margin: 40px;
 }
+
+main > aside{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+aside > h3{
+    color: rgb(5, 70, 5);
+    font-size: 2.3em;
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+aside > p{
+    color: rgba(128, 128, 128, 0.808);
+    text-decoration: line-through;
+    padding: 35px 0px 0px 50px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
